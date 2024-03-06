@@ -1,0 +1,118 @@
+/**font-family: "Bebas Neue", sans-serif;**/
+/**font-family: "MedievalSharp", cursive;**/
+
+
+
+img {
+    height: 891px;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.navbar {
+    background-color: rgb(185, 2, 2);
+}
+
+.text-colored {
+    color: red;
+    font-family: "MedievalSharp", cursive;
+}
+
+.livro {
+    height: 200px;
+    width: 200px;
+}
+
+.pad-top-body{
+    padding-top: 8px;
+}
+
+.card-img {
+    height: 300px;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.nav-livros .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(185, 2, 2);
+    color: white;
+}
+
+.nav-livros .nav-link:hover {
+    color: #e15f41;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: rgb(185, 2, 2);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(185, 2, 2);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-livros .nav-link.active:hover {
+    color: white;
+}
+
+h1,
+p {
+    font-weight: bold;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links li {
+    list-style-type: none;
+    display: inline;
+}
+
+.pad-top {
+    padding-top: 53px;
+}
+
+.rolling {
+    padding-bottom: 162px;
+}
+.card {
+    height: 500px;
+}
+
+footer {
+    background-color: rgb(185, 2, 2);
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+footer p {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .row-adjust {
+        margin-top: 15px;
+        padding-left: 21vw;
+    }
+
+}
